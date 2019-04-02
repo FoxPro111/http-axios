@@ -1,0 +1,26 @@
+.Header {
+    text-align: center;
+}
+
+.Header ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 15px;
+}
+
+.Header li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.Header a {
+    display: inline-block;
+    padding: 15px 10px;
+    text-decoration: none;
+    color: #222;
+}
+
+.Header a:hover,
+.Header a.active {
+    color: orange;   
+}
